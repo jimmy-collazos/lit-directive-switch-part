@@ -1,6 +1,6 @@
 {
   "name": "lit-directive-switch-part",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lit HTML directive for switch content part in your template",
   "main": "./lit-directive-switch-part.js",
   "module": "./lit-directive-switch-part.js",
@@ -13,6 +13,11 @@
   "peerDependencies": {
     "lit-html": "^1.3.0"
   },
+  "file": [
+    "lit-directive-switchtemplate.js",
+    "lit-directive-switchtemplate.d.ts",
+    "README"
+  ],
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^9.0.0",
     "rollup": "^2.32.1",

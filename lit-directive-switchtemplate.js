@@ -1,4 +1,4 @@
-import { directive, nothing } from "https://unpkg.com/lit-html@1.3.0/lit-html.js?module";
+import { directive, nothing } from "lit-html";
 const getProperty = (store, key) => (Object.prototype.hasOwnProperty.call(store, key) ? store[key] : nothing);
 const isFn = (v) => typeof v === 'function';
 function switchPartDirective(store, opt = {}){
