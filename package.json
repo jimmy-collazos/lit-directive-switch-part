@@ -1,0 +1,39 @@
+{
+  "name": "lit-directive-switch-part",
+  "version": "0.0.1",
+  "description": "Lit HTML directive for switch content part in your template",
+  "main": "./lit-directive-switch-part.js",
+  "module": "./lit-directive-switch-part.js",
+  "type": "module",
+  "author": {
+    "email": "jimmy.collazos@gmail.com",
+    "name": "Jimmy Collazos"
+  },
+  "license": "GPL-3.0",
+  "peerDependencies": {
+    "lit-html": "^1.3.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.32.1",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmy-collazos/lit-directive-switch-part.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jimmy-collazos/lit-directive-switch-part/issues"
+  },
+  "homepage": "https://github.com/jimmy-collazos/lit-directive-switch-part#README",
+  "keywords": [
+    "lit-html",
+    "lit",
+    "webcomponents",
+    "customelements",
+    "lit-element",
+    "template",
+    "switch",
+    "switch-template"
+  ]
+}
