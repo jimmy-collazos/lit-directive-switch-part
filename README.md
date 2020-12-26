@@ -1,4 +1,4 @@
-![Switch Part](./header.png)
+![Switch Part](./header.webp)
 <sup>_Social Media Photo by [pure julia](https://unsplash.com/@purejulia) on [Unsplash](https://unsplash.com/photos/HH-iKI0veVI)_</sup>
 
 # Switch Part
