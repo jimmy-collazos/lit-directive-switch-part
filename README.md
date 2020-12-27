@@ -24,15 +24,14 @@ npm install --save lit-directive-switch-part
 import {switchPart} from 'https://unpkg.com/lit-directive-switch-part?module'
 ```
 
-
 ## # switchPart(store, options)
 
 ### _Arguments_
 
 * store: Key value store. The Value can by a function for a lazy rendering; the function recibe previus key used. If cache is enabled, the function is called once and cache result for next setter.
 * options:
-  * default: Default key for first rendering
-  * cache: Enable/Disable cache for lazy rendering
+  * default: Default key for first rendering. Default value is "default"
+  * cache: Enable/Disable cache for lazy rendering. Default value is "true"
   * resolver(store, key): Resolver function
 
 ### API
