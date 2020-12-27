@@ -1,6 +1,6 @@
 {
   "name": "lit-directive-switch-part",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Lit HTML directive for switch content part in your template",
   "main": "./lit-directive-switch-part.js",
   "module": "./lit-directive-switch-part.js",
