@@ -1,6 +1,8 @@
 import { directive, nothing } from "lit-html";
+
 const getProperty = (store, key) => (Object.prototype.hasOwnProperty.call(store, key) ? store[key] : nothing);
 const isFn = (v) => typeof v === 'function';
+
 function switchPartDirective(store, opt = {}){
   let part;
   let lastKey;
