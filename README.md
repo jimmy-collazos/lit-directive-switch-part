@@ -57,7 +57,7 @@ const content = switchPart({
 }, {default: 'a'});
 
 render(html`
-  <h1>Sw</h1>
+  <h1>Basic demo</h1>
   <ul>
     <li><button type="button" @click=${_ => content.case('a')}>Lorem</buttom></li>
     <li><button type="button" @click=${_ => content.case('b')}>Ut</buttom></li>
@@ -65,8 +65,8 @@ render(html`
     <li><button type="button" @click=${_ => content.clear()}>Clear</buttom></li>
   </ul>
   <hr>
-  ${tab}
-  `, document.querySelector('#mainbox'));
+  ${content}
+  `, document.querySelector('#app'));
 ```
 
 ### _Lazy render example_
@@ -82,7 +82,7 @@ const content = switchPart({
 }, {default: 'a', cache: true});
 
 render(html`
-  <h1>Sw</h1>
+  <h1>Lazy render demo</h1>
   <ul>
     <li><button type="button" @click=${_ => content.case('a')}>Lorem</buttom></li>
     <li><button type="button" @click=${_ => content.case('b')}>Ut</buttom></li>
@@ -90,6 +90,6 @@ render(html`
     <li><button type="button" @click=${_ => content.clear()}>Clear</buttom></li>
   </ul>
   <hr>
-  ${tab}
-  `, document.querySelector('#mainbox'));
+  ${content}
+  `, document.querySelector('#app'));
 ```

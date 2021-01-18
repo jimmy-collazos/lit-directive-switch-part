@@ -16,7 +16,8 @@
   "files": [
     "lit-directive-switch-part.js",
     "lit-directive-switch-part.d.ts",
-    "README"
+    "README",
+    "LICENSE"
   ],
   "repository": {
     "type": "git",
@@ -35,5 +36,6 @@
     "template",
     "switch",
     "switch-part"
-  ]
+  ],
+  "types": "module"
 }
