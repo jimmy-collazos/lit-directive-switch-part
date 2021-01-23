@@ -8,7 +8,10 @@
   <img alt="License: GPL 3.0" src="https://img.shields.io/badge/GPL 3.0-license-yellowgreen" />
 </p>
 
-This is a directive for [lit-html](https://lit-html.polymer-project.org/) for switch [parts](https://lit-html.polymer-project.org/api/interfaces/_lit_html_.part.html) of your template. Change any part of your template without re-rendering.
+This is a directive of [lit-html](https://lit-html.polymer-project.org/) for switch [parts](https://lit-html.polymer-project.org/api/interfaces/_lit_html_.part.html) of your template. Change any part of your template without re-rendering.
+
+[🔗 See the demo](https://stackblitz.com/edit/lit-directive-switch-part?file=index.js)
+
 
 ## Installation
 

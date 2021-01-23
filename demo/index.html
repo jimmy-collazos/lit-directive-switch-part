@@ -7,18 +7,28 @@
 </head>
 <body>
   <div id="container"></div>
+  <script type="importmap">
+    {
+      "imports": {
+        "lit-html": "https://unpkg.com/lit-html@1.3.0/lit-html.js?module",
+        "lit-directive-switch-part": "../lit-directive-switch-part.js"
+      }
+    }
+  </script>
   <script type="module">
     import {render, html} from 'lit-html'
-    import {switchPart} from 'directive-switch-part';
+    import {switchPart} from 'lit-directive-switch-part';
 
     const tab = switchPart({
       a: () => html`a`,
       b: () => html`b`,
-      c: () => html`c`
+      c: () => html`c`,
+      default: html`Default content`
     });
     
     render(html`
-      <h1>Sw</h1>
+      <h1>Demo</h1>
+      <i>(click on some buttom)</i>
       <ul>
         <li><button type="button" @click=${_ => tab.case('a')}>A</buttom></li>
         <li><button type="button" @click=${_ => tab.case('b')}>B</buttom></li>

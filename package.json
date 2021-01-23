@@ -37,5 +37,5 @@
     "switch",
     "switch-part"
   ],
-  "types": "module"
+  "types": "lit-directive-switch-part.d.ts"
 }
